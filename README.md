@@ -5,10 +5,7 @@ This project demonstrates how machine learning and time-series analysis can be a
 
 Source: Yahoo Finance  via the yfinance  Python API
 
-Fallback: If Yahoo data isn’t available, the project generates synthetic financial data (with trends, seasonality, and random shocks) to ensure reproducibility
-
-**Methods & Workflow: **
-
+**Methods:**
 1. Data Collection & Cleaning:  
 Fetch quarterly revenue and operating expense (OPEX)
 Generate features: lags, rolling averages, growth rates
